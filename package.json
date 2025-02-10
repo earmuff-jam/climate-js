@@ -6,17 +6,30 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docugen": "jsdoc src -r -d docs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^6.4.3",
-    "@mui/material": "^6.4.3",
+    "@mui/icons-material": "^6.2.0",
+    "@mui/material": "^6.2.0",
+    "@reactour/tour": "^3.6.1",
     "firebase": "^11.3.0",
+    "chart.js": "^4.4.0",
     "next": "15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.10",
+    "immer": "^10.0.3",
+    "material-react-table": "^3.0.3",
+    "ol": "^8.1.0",
+    "qrcode.react": "^3.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-easy-edit": "^1.17.2",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
