@@ -1,6 +1,6 @@
 'use client';
 
-import LoginPage from '@/app/login/page';
+import LoginPage from '@/app/landing/page';
 import { useAuth } from '@/context/AuthContext';
 
 export default function Home() {
